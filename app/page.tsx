@@ -1,3 +1,6 @@
+
+import AboutPage from "@/components/about";
+import Navbar from "@/components/navbar";
 import Link from "next/link";
 
 //? aikane teke all code run hove , i mean soro th aikanai hove
@@ -14,6 +17,8 @@ export default function Home() {
           Go to About
         </button>
       </Link>
+      <Navbar />
+      
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Exam() {
+export default function Navbar() {
     return (
         <div>
-            <h1>this is my Exam page</h1>
+            <h1>Hello navbar</h1>
         </div>
     )
 }
